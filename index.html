@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uriel | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body class="bg-gray-900 text-white font-sans antialiased">
+  <!-- Header -->
+  <header class="text-center py-12 px-4">
+    <h1 class="text-5xl font-extrabold tracking-tight mb-2">Uriel</h1>
+    <p class="text-xl text-gray-300">Computer Scientist · Cybersecurity Enthusiast · Lifelong Learner</p>
+    <p class="text-lg text-gray-400 max-w-3xl mx-auto mt-4">
+      I’m a Computer Scientist with a passion for building secure, scalable web applications. I specialize in PHP, MySQL, and security-first design. Currently seeking opportunities to contribute to tech teams solving real-world problems.
+    </p>
+  </header>
+
+  <!-- About -->
+  <section class="text-center px-4 mt-8">
+    <img src="profile.jpeg" alt="Profile photo of Uriel" class="w-36 h-36 mx-auto rounded-full border-4 border-blue-500 shadow-lg" />
+    <h2 class="text-3xl font-bold mt-6 mb-2">About Me</h2>
+    <p class="max-w-2xl mx-auto text-gray-300 leading-relaxed">
+      I am a computer scientist and cybersecurity enthusiast who is passionate about technology and always striving to grow and improve. I specialize in web technologies and security-focused applications.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section class="px-6 mt-16">
+    <h2 class="text-3xl font-bold text-center mb-6">Skills</h2>
+    <div class="max-w-xl mx-auto grid grid-cols-2 gap-4 text-center text-gray-200">
+      <span>HTML, CSS, JavaScript</span>
+      <span>PHP, MySQL</span>
+      <span>Python</span>
+      <span>Cybersecurity Basics</span>
+      <span>Linux & WAMP</span>
+      <span>Git & GitHub</span>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="px-6 mt-16">
+    <h2 class="text-3xl font-bold text-center mb-6">Projects</h2>
+    <div class="max-w-3xl mx-auto space-y-6">
+      <div class="bg-gray-800 p-4 rounded-lg shadow-md hover:shadow-blue-500 transition-shadow duration-300">
+        <h3 class="text-xl font-semibold">BMI Web App</h3>
+        <p class="text-gray-400">
+          Developed a BMI calculator using PHP and MySQL with real-time feedback and form validation. Designed to help users track health metrics locally.
+          <br><strong>Tech:</strong> PHP, MySQL, JavaScript
+          <br><a href="#" class="text-blue-400 hover:underline">View Code</a> | <a href="#" class="text-blue-400 hover:underline">Live Demo</a>
+        </p>
+      </div>
+      <div class="bg-gray-800 p-4 rounded-lg shadow-md hover:shadow-blue-500 transition-shadow duration-300">
+        <h3 class="text-xl font-semibold">E-Diagnosis Web App</h3>
+        <p class="text-gray-400">
+          A health diagnosis tool leveraging form inputs and logical decision-making for preliminary medical insights.
+          <br><strong>Tech:</strong> PHP, JavaScript, HTML, CSS
+          <br><a href="#" class="text-blue-400 hover:underline">View Code</a> | <a href="#" class="text-blue-400 hover:underline">Live Demo</a>
+        </p>
+      </div>
+      <div class="bg-gray-800 p-4 rounded-lg shadow-md hover:shadow-blue-500 transition-shadow duration-300">
+        <h3 class="text-xl font-semibold">Loan Management Web App</h3>
+        <p class="text-gray-400">
+          An admin interface that streamlines loan applications, customer data management, and approval workflows.
+          <br><strong>Tech:</strong> PHP, MySQL, JavaScript
+          <br><a href="#" class="text-blue-400 hover:underline">View Code</a> | <a href="#" class="text-blue-400 hover:underline">Live Demo</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Download -->
+  <section class="text-center mt-12">
+    <a href="resume.pdf" class="bg-white text-gray-900 font-bold py-3 px-6 rounded-lg shadow hover:bg-gray-200 transition">
+      Download Resume
+    </a>
+  </section>
+
+  <!-- Contact -->
+  <section class="px-6 mt-16 mb-16">
+    <h2 class="text-3xl font-bold text-center mb-6">Contact Me</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST" class="max-w-xl mx-auto space-y-5">
+      <input type="text" name="name" placeholder="Your Name" required class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" />
+      <input type="email" name="email" placeholder="Your Email" required class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" />
+      <textarea name="message" rows="4" placeholder="Your Message" required class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+      <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg transition-colors duration-300">
+        <i class="fas fa-paper-plane mr-2"></i>Send Message
+      </button>
+    </form>
+  </section>
+
+  <!-- Social Media Links -->
+  <section class="text-center mt-8">
+    <div class="flex justify-center space-x-6">
+      <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github text-2xl hover:text-blue-400"></i></a>
+      <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin text-2xl hover:text-blue-400"></i></a>
+      <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter text-2xl hover:text-blue-400"></i></a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 border-t border-gray-700 text-gray-500 text-sm">
+    © 2025 Uriel. All rights reserved.
+  </footer>
+</body>
+</html>
